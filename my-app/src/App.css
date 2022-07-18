@@ -1,0 +1,258 @@
+.react-container {
+  box-sizing: border-box;
+  padding: 0 25px;
+  font-family: 'Tiro Kannada', serif;
+  }
+  
+  ul,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .header-container,
+  .education-container,
+  .additional-education-container,
+  .hard-skills-container,
+  .soft-skills-container {
+    padding-bottom: 20px;
+  }
+  
+  @media screen and (min-width: 321px) {
+    .header-container,
+    .education-container,
+    .additional-education-container,
+    .hard-skills-container,
+    .soft-skills-container {
+      padding-bottom: 25px;
+    }
+  }
+  
+  .h1-holder {
+    margin: 10px 10px 20px;
+  }
+  
+  h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 321px) {
+    h1 {
+      font-size: 39px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    h1 {
+      text-align: start;  
+    }
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contact-inform-holder {
+    padding: 10px;
+  }
+  
+  @media screen and (min-width: 321px) {
+    .contact-inform-holder {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .flex-container {
+      flex-direction: row;
+    }
+    
+    .contact-inform-holder {
+      padding: 30px;
+    }
+  }
+  
+  .contacts-list{
+    text-align: start;
+  }
+  
+  .contact-link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-header {
+    font-weight: 500;
+  }
+  
+  .experience-container{
+    padding-bottom: 5px;
+  }
+  
+  @media screen and (min-width: 321px) {
+    .experience-container{
+      padding-bottom: 5px;
+    }
+  }
+  
+  .h2-holder {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 22px;
+  }
+  
+  @media screen and (min-width: 321px) {
+    .h2-holder {
+      padding-bottom: 10px;
+    }
+    
+    h2 {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .h2-holder {
+      padding-bottom: 10px;
+      text-align: start;
+    }
+    
+    h2 {
+      font-size: 26px;
+    }
+  }
+  
+  .h3-holder {
+    padding-bottom: 5px;
+  }
+  
+  h3 {
+    font-weight: 700;
+    font-size: 19px;
+  }
+  
+  @media screen and (min-width: 321px) {
+    h3 {
+      font-size: 21px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    h3 {
+      font-size: 24px;
+    }
+  }
+  
+  .h4-holder {
+    padding-bottom: 5px;
+  }
+  
+  h4 {
+    font-weight: 600;
+    font-size: 17px;
+  }
+  
+  @media screen and (min-width: 321px) {
+    h4 {
+      font-size: 19px;
+    }
+  }
+  
+  .h5-holder {
+    padding-bottom: 5px;
+  }
+  
+  h5 {
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: underline;
+  }
+  
+  @media screen and (min-width: 321px) {
+    h5 {
+      font-size: 19px;
+    }
+  }
+  
+  .responsibilities-list,
+  .add-edu-list,
+  .hard-skills-list,
+  .soft-skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .responsibilities-item,
+  .add-edu-item,
+  .hard-skills-item,
+  .soft-skills-item {
+    font-size: 16px;
+  }
+  
+  .responsibilities-item::before,
+  .add-edu-item::before,
+  .hard-skills-item::before,
+  .soft-skills-item::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 50%; 
+    margin-right: 7px;
+  }
+  
+  .responsibilities-item:last-child{
+    padding-bottom: 20px;
+  }
+  
+  .edu-table {
+    font-size: 16px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  @media screen and (min-width: 321px) {
+    td {
+      padding: 10px;
+    }
+  }
+  
+  .period {
+    text-align: start;
+    font-weight: 500;
+  }
